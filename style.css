@@ -1,4 +1,6 @@
-
+body {
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
 
 .heading {
   text-align: center;
@@ -32,5 +34,5 @@
   color: #FFFFFF;
   border: none;
   height: 35px;
-  border-radius: 10%;
+  border-radius: 8px;
 }
