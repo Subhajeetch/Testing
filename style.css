@@ -1,4 +1,9 @@
-button {
+.cartQtitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cartQbutton {
   background-color: orange;
   color: #FFFFFF;
   border: none;
