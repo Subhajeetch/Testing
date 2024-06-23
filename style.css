@@ -1,5 +1,26 @@
+
+
+.heading {
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+
+.cartQdiv {
+  background-color: #C5C6D4;
+  text-align: center;
+  border-left: 5px solid black;
+  margin: 40px 30px 0px 30px;
+  padding: 30px 0 30px 0;
+}
+
+@media (max-width: 400px) {
+  .cartQdiv {
+  margin: 40px 0 0 0;
+}
+}
+
 .cartQtitle {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 
