@@ -1,5 +1,7 @@
 body {
   font-family: "Gill Sans Extrabold", sans-serif;
+  background-color: #EEEFFF;
+  margin: 40px;
 }
 
 .heading {
@@ -8,12 +10,24 @@ body {
   
 }
 
-.cartQdiv {
+.separatorline {
+  height: 2px;
+  background-color: #35374A;
+}
+
+#projects {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cartQdiv, .spsdiv {
   background-color: #D8FFAF;
   text-align: center;
   border-radius: 0 20px 20px 0;
   border-left: 5px solid #32BA00;
-  margin: 40px 30px 0px 30px;
+  margin: 40px 0px 0px 0px;
   padding: 30px 0 30px 0;
   box-shadow: 2px 4px 8px 2px #B2B2B2;
 }
@@ -22,25 +36,38 @@ body {
   .cartQdiv {
   margin: 40px 0 0 0;
 }
+body {
+  margin: 9px;
+}
 }
 
-.head {
+@media (min-width: 410px) {
+  .cartQbutton, .spsbtn {
+    width: 100px;
+  }
+}
+
+.head, .spstitlediv {
   background-color: #FFFFFF;
   padding: 2px 0 2px 0;
   margin: 0 25px 0 0;
   border-radius: 0 30px 30px 0;
 }
 
-.cartQtitle {
+.cartQtitle, .spstitle {
   font-size: 25px;
   font-weight: bold;
 }
 
-.cartQbutton {
+.cartQbutton, .spsbtn {
   background-color: #FF6900;
   font-weight: bold;
   color: #FFFFFF;
   border: none;
   height: 35px;
   border-radius: 5px;
+}
+
+.spstitlediv {
+  margin: 0 25px 30px 0;
 }
