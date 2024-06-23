@@ -6,11 +6,13 @@
 }
 
 .cartQdiv {
-  background-color: #C5C6D4;
+  background-color: #D8FFAF;
   text-align: center;
-  border-left: 5px solid black;
+  border-radius: 0 20px 20px 0;
+  border-left: 5px solid #32BA00;
   margin: 40px 30px 0px 30px;
   padding: 30px 0 30px 0;
+  box-shadow: 2px 4px 8px 2px #B2B2B2;
 }
 
 @media (max-width: 400px) {
@@ -25,7 +27,8 @@
 }
 
 .cartQbutton {
-  background-color: orange;
+  background-color: #FF6900;
+  font-weight: bold;
   color: #FFFFFF;
   border: none;
   height: 35px;
