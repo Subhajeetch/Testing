@@ -22,6 +22,18 @@ body {
   margin-top: 80px;
 }
 
+.projectdisc {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (min-width: 410px) {
+  .projectdisc {
+    font-size: 20px;
+    margin: 0 100px 0 100px;
+  }
+}
+
 .cartQdiv, .spsdiv {
   background-color: #D8FFAF;
   text-align: center;
@@ -36,6 +48,7 @@ body {
   .cartQdiv {
   margin: 40px 0 0 0;
 }
+
 body {
   margin: 9px;
 }
