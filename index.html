@@ -153,7 +153,16 @@
    <br>
    <br>
    
-   <!--- <button class="spsbtn">Reset Score</button> --->
+   <button class="spsbtn" onclick="
+   
+   score.wins = 0;
+   score.losses = 0;
+   score.ties = 0;
+   
+   alert(`Score has been reset.
+Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}.`)
+   
+   ">Reset Score</button>
    
    
    <p>
